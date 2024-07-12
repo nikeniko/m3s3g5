@@ -5,7 +5,6 @@ import { toggleLike } from "../redux/slices/likedSongsSlice";
 
 const SongCard = ({ song }) => {
   const dispatch = useDispatch();
-  const currentSong = useSelector((state) => state.player.currentSong);
   const likedSongs = useSelector((state) => state.likedSongs.likedSongs);
   const isLiked = likedSongs.includes(song.id);
 

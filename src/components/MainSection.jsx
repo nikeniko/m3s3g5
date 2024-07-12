@@ -29,7 +29,7 @@ const MainSection = ({ searchTerm }) => {
   }
 
   return (
-    <div className="ps-7 text-white">
+    <div className="ps-7 text-white pb-7">
       <h2 className="ps-5">Songs</h2>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 imgLinks py-3">
         {songs.map((song) => (
